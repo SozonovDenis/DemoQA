@@ -1,0 +1,68 @@
+#Список тест-кейсов
+
+##1.Text Box
+1.1. Корректное заполнение всех полей. Проверка вывода информации.
+TextBoxTest.CorrectInputAllFields()
+
+1.2. Корректное заполнение части полей. Проверка вывода информации.
+TextBoxTest.CorrectInputPartOfFields()
+
+1.3. Некорректно заполненный емейл, проверка подсветки поля после нажатия на кнопку Submit.
+TextBoxTest.EmailFieldErrorCheck()
+
+
+##2. Check Box
+2.1. Разложить-сложить все дерево чбшек (кнопки +, -)
+CheckBoxTest.expandAndCollapseAll
+
+2.2. Клик по чб 1 уровня "Home", проверка вывода всех чбшек
+CheckBoxTest.clickHomeCheckBox()
+
+2.3. Клик по перечисленным чбшкам, проверка вывода проставленных чб
+CheckBoxTest.clickSomeCheckBoxes()
+
+2.4. Клик по перечисленным чбшкам, проверка состояний чбшек
+CheckBoxTest.iconConditionCheck()
+
+
+##3. Radio Button
+3.1. Проверка что по дефолту (когда радиобаттон не выбран) не отображается текст с выбранной кнопкой
+RadioButtonTest.checkOutputBlockNotShownByDefault()
+
+3.2. Выбрать Yes, проверка вывода
+RadioButtonTest.checkOutputOfYesRadioButton()
+
+3.3. Выбрать Impressive, проверка вывода
+RadioButtonTest.checkOutputOfImpressiveRadioButton()
+
+3.4. Проверка что недоступен выбор No
+RadioButtonTest.checkOutputOfNoRadioButton()
+
+
+##3. Web Tables
+3.1. Удаление нескольких строк, проверка количества заполненных
+WebTablesTest.deleteSomeRowsAndCheckCountOfFilledRows()
+
+3.2. Переключение количества отображаемых строк, проверка количества выведенных строк
+WebTablesTest.changeQuantityOfRowsAndCheckCountOfRows()
+
+3.3. Добавленние новых строк со случайной комбинацией значений, проверка количества заполненных
+WebTablesTest.addNewRow()
+
+3.4. Еще куча кейсов, при необходимости дописать
+
+
+##4. Buttons
+4.1. Даблклик, проверка вывода
+ButtonsTest. doubleClickOnDoubleClickMeButton()
+
+4.2. Правый клик, проверка вывода
+ButtonsTest.rightClickOnRightClickMeButton()
+
+4.3. Левый клик, проверка вывода
+ButtonsTest.leftClickOnClickMeButton()
+
+4.4. Нажать все, проверка вывода
+ButtonsTest.allButtonsClick()
+
+
